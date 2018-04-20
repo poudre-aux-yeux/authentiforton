@@ -18,6 +18,6 @@ body {
   justify-content: center;
 }
 
-h1 {
+h1, h2 {
   text-align: center;
 }

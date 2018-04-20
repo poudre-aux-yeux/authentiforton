@@ -1,0 +1,23 @@
+.login {
+  background: #ccc;
+  display: inline-flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 35px rgba(48, 95, 129, .1);
+  border-radius: 16px;
+  padding: 25px 30px 30px;
+}
+
+body {
+  background: #eff2fa;
+  color: #2c3e50;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+}

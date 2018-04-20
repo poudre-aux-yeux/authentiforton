@@ -1,4 +1,4 @@
-# Authenticorton
+# AuthentiForton
 
 Authentification forte + forton = authentiforton
 

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" type="image/png" href="metamask.png" />
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Authentifiorton</title>
+    <title>AuthentiForton</title>
   </head>
 
   <body>
@@ -30,6 +30,7 @@
         xhr.open (oFormElement.method, oFormElement.action, true);
         xhr.send (new FormData (oFormElement));
         console.log(xhr);
+        console.log(SHA256("motdepasse"));
         return false;
       }
     </script>

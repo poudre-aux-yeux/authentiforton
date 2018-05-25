@@ -25,6 +25,7 @@
         xhr.open (oFormElement.method, oFormElement.action, true);
         xhr.send (new FormData (oFormElement));
         console.log(xhr);
+        console.log(SHA256("motdepasse"));
         return false;
       }
     </script>

